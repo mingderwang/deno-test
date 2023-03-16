@@ -1,5 +1,5 @@
-import React from 'https://esm.sh/react'
-import ReactDOMServer from 'https://esm.sh/react-dom/server'
+import React from "https://esm.sh/react";
+import ReactDOMServer from "https://esm.sh/react-dom/server";
 
 function App() {
   return (
@@ -12,4 +12,3 @@ function App() {
 
 const html = ReactDOMServer.renderToString(<App />);
 console.log(html);
-
